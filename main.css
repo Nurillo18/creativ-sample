@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: aquamarine;
+}
+.list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    gap: 30px;
+    position: absolute;
+    top: 680px;
+}
+.delete{
+    transition: all 2s;
+    animation: delete 1s ease-in-out 1;
+    display: none;
+}
+.item{
+    transition: all 1s;
+    color: #111;
+    filter: drop-shadow(0 0 20px #111) drop-shadow(0 0 40px #111);
+}
+.button{
+    position: absolute;
+    top: 0;
+    background: #39B9B2;
+    border-color: aqua;
+    padding: 10px 20px;
+    border-radius: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    border-width: 5px;
+}
+.button:active {
+    font-size: 21px;
+}
+.assalom{
+    background-image: url("./imgs/shum.png");
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    background-position-y: calc(50%);
+    background-position-x: calc(50%);
+    background-size: 900px;
+    width: 600px;
+    height: 600px;
+    animation: shum 3s ease-in-out 1;
+}
+@keyframes shum {
+    0% {
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.otash{
+    background-image: url("./imgs/otashxopiz.png");
+    background-repeat: no-repeat;
+    background-size:900px;
+    width: 800px;
+    height: 600px;
+    animation: otash 3s ease-in-out 1;
+}
+@keyframes otash {
+    0% {
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.kel{
+    background-image: url("./imgs/alisher.png");
+    background-repeat: no-repeat;
+    background-size:900px;
+    width: 800px;
+    height: 600px;
+    animation: alish 3s ease-in-out 1;
+}
+@keyframes alish {
+    0% {
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.pasport{
+    background-image: url("./imgs/maruf.png");
+    background-repeat: no-repeat;
+    background-size:900px;
+    width: 800px;
+    height: 600px;
+    animation: maruf 3s ease-in-out 1;
+    margin-top: 100px;
+}
+@keyframes maruf {
+    0% {
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.pul{
+    background-image: url("./imgs/obityunusov.png");
+    background-repeat: no-repeat;
+    background-size:900px;
+    width: 800px;
+    height: 600px;
+    animation: obityunusov 3s ease-in-out 1;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+@keyframes obityunusov {
+    0% {
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.boylik{
+    background-image: url("./imgs/boylik.png");
+    background-repeat: no-repeat;
+    background-size:900px;
+    width: 800px;
+    height: 600px;
+    animation: boy 3s ease-in-out 1;
+    margin-top: 100px;
+}
+@keyframes boy {
+    0% {
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.liklik{
+    background-image: url("./imgs/johon.png");
+    background-repeat: no-repeat;
+    background-size:900px;
+    width: 800px;
+    height: 600px;
+    animation: lik 3s ease-in-out 1;
+    margin-top: 70px;
+}
+@keyframes lik {
+    0% {
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.biznes{
+    background-image: url("./imgs/eshonqulov.png");
+    background-repeat: no-repeat;
+    background-size:900px;
+    width: 800px;
+    height: 600px;
+    animation: eshonqulov 3s ease-in-out 1;
+    margin-top: 100px;
+}
+@keyframes eshonqulov {
+    0% {
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.tugadi{
+    background-image: url("./imgs/nuri.png");
+    background-repeat: no-repeat;
+    background-size:900px;
+    width: 800px;
+    height: 600px;
+    animation: kamina 3s ease-in-out 1;
+    margin-top: 100px;
+}
+@keyframes kamina {
+    0% {
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
