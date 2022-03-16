@@ -175,7 +175,7 @@ body{
     width: 800px;
     height: 600px;
     animation: eshonqulov 3s ease-in-out 1;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 @keyframes eshonqulov {
     0% {
