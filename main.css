@@ -28,9 +28,16 @@ body{
     display: none;
 }
 .item{
-    transition: all 1s;
+    cursor: pointer;
+    transition: all 0.5s;
     color: #111;
     filter: drop-shadow(0 0 20px #111) drop-shadow(0 0 40px #111);
+}
+.item:hover{
+    transform: rotate(20deg);
+    color: indigo;
+    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 40px #fff);
+
 }
 .button{
     position: absolute;
